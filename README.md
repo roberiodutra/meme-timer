@@ -5,9 +5,7 @@
 <p align="center">Project made with Reactjs using youtube API 🕙 🕥</p>
 
 
-<img src="https://img.shields.io/github/issues/Roberio-Almeida/meme-timer?color=2fc18c&label=Version&logo=ghost&logoColor=2fc18c&style=for-the-badge"/>
-
-<section align="center">![Bower](https://img.shields.io/bower/l/bootstrap)</section>
+<img align="center" src="https://img.shields.io/bower/l/bootstrap"/>
 
 
 <h1 align="center">
