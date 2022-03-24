@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img alt="Banner do MemeTimer para ReadME" title="#MemeTimer" src="./public/images/banner.jpg" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* *<p align="center">Project made with Reactjs using youtube API 🕙 🕥</p>
 
-## Available Scripts
 
-In the project directory, you can run:
+<img src="https://img.shields.io/github/issues/Roberio-Almeida/meme-timer?color=2fc18c&label=Version&logo=ghost&logoColor=2fc18c&style=for-the-badge"/>
 
-### `npm start`
+![Bower](https://img.shields.io/bower/l/bootstrap)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h1 align="center">
+    <a href="https://pt-br.reactjs.org/">🔗 React</a>
+</h1>
+<p align="center">🚀 Projeto idealizado para os intervalos das aulas na Trybe</p>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+ <a href="#features">Features</a> •
+ <a href="#requisitos">Pré-requisitos</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#autor">Autor</a>
+</p>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h4 align="center"> 
+	🚧  Meme Timer 🚀 Em construção...  🚧
+</h4>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Features
 
-### `npm run eject`
+- [x] Cronômetro regressivo
+- [x] Player de música (Playlist Trybe Turma 19)
+- [x] Meme Watch
+- [ ] Escolher a música
+- [ ] Opção de cronômetro progressivo
+- [ ] Refatorar para utilizar Hooks e componentes funcionais
+- [ ] Testes...
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Banner do Meme com demonstração da aplicação](./public/images/banner.jpg)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h1 align="center">
+  <img alt="Banner do MemeTimer com demonstração da aplicação" title="#MemeTimer" src="./public/images/demo.jpg" />
+</h1>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Pré-requisitos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-## Learn More
+### 🎲 Rodando o Back End (servidor)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Clone este repositório
+$ git clone <git@github.com:Roberio-Almeida/meme-timer.git>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Acesse a pasta do projeto no terminal/cmd
+$ cd meme-timer
 
-### Code Splitting
+# Instale as dependências
+$ npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Execute a aplicação em modo de desenvolvimento
+$ npm start
 
-### Analyzing the Bundle Size
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 🛠 Tecnologias
 
-### Making a Progressive Web App
+As seguintes ferramentas foram usadas na construção do projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Autor
 
-### Deployment
+<img src="https://avatars.githubusercontent.com/u/92614697?v=4" width="100px;" alt="Robério Almeida Avatar">
+Robério Almeida 🚀
+Feito com ❤️ por Robério Almeida 👋🏽 <a href="https://www.linkedin.com/in/roberioalmeida/">Entre em contato!</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<a href="https://www.linkedin.com/in/roberioalmeida/" rel="nofollow"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin Badge" data-canonical-src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📝 Licença
+Este projeto esta sobe a licença <a href="/Roberio-Almeida/meme-timer/blob/main/LICENSE">MIT</a>.
