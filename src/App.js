@@ -23,7 +23,7 @@ class App extends Component {
 
   start = () => {
     const { running, minutes, seconds, percent } = this.state;
-    const MATH_NUMBER = Math.floor(Math.random() * 62);
+    const MATH_NUMBER = Math.floor(Math.random() * 59);
     const MATH_IMAGES = `url("images/image${MATH_NUMBER}.jpg")`;
 
     percent === 0 && this.setState({ imageBg: MATH_IMAGES });
