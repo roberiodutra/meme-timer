@@ -1,23 +1,17 @@
 <h1 align="center">
-  <img alt="Banner do MemeTimer para ReadME" title="#MemeTimer" src="./public/images/banner.jpg" />
+  <img alt="Banner do MemeTimer com demonstração da aplicação" title="#MemeTimer" src="./public/images/demo.jpg" />
 </h1>
 
 <p align="center">Project made with Reactjs using youtube API 🕙 🕥</p>
-
-
-
 
 <p align="center">
   <img src="https://img.shields.io/bower/l/bootstrap">
 </p>
 
-
-
 <h1 align="center">
     <a href="https://pt-br.reactjs.org/">🔗 React</a>
 </h1>
 <p align="center">🚀 Projeto idealizado para os intervalos das aulas na Trybe</p>
-
 
 <p align="center">
  <a href="#features">Features</a> •
@@ -26,19 +20,9 @@
  <a href="#autor">Autor</a>
 </p>
 
-
 <h4 align="center"> 
 	🚧  Meme Timer 🚀 Em construção...  🚧
 </h4>
-
-
-
-<h1 align="center">
-  <img alt="Banner do MemeTimer com demonstração da aplicação" title="#MemeTimer" src="./public/images/demo.jpg" />
-</h1>
-
-
-
 
 ### Features
 
@@ -49,8 +33,6 @@
 - [ ] Opção de cronômetro progressivo
 - [ ] Refatorar para utilizar Hooks e componentes funcionais
 - [ ] Testes...
-
-
 
 ### Pré-requisitos
 
@@ -83,7 +65,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
 
-
 ### Autor
 
 <img src="https://avatars.githubusercontent.com/u/92614697?v=4" width="100px;" alt="Robério Almeida Avatar">
@@ -91,10 +72,7 @@ Robério Almeida 🚀
 
 <a href="https://www.linkedin.com/in/roberioalmeida/" rel="nofollow"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin Badge" data-canonical-src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
-
 Feito com ❤️ 👋🏽 <a href="https://www.linkedin.com/in/roberioalmeida/">Entre em contato!</a>
-
-
 
 📝 Licença
 
