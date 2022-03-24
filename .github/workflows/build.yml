@@ -17,6 +17,8 @@ jobs:
         run: |
           npm ci
           npm run build
+        env:
+          REACT_APP_YOUTUBE_API_KEY: ${{ secrets.REACT_APP_YOUTUBE_API_KEY }}
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
