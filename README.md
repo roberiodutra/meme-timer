@@ -88,8 +88,14 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <img src="https://avatars.githubusercontent.com/u/92614697?v=4" width="100px;" alt="Robério Almeida Avatar">
 Robério Almeida 🚀
+
 <a href="https://www.linkedin.com/in/roberioalmeida/" rel="nofollow"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin Badge" data-canonical-src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+
+
 Feito com ❤️ por Robério Almeida 👋🏽 <a href="https://www.linkedin.com/in/roberioalmeida/">Entre em contato!</a>
+
+
+
 
 📝 Licença
 Este projeto esta sobe a licença <a href="/Roberio-Almeida/meme-timer/blob/main/LICENSE">MIT</a>.
