@@ -3,6 +3,7 @@ import Display from "./components/Display";
 import Buttons from "./components/Buttons";
 import MusicPlayer from "./components/MusicPlayer";
 import "./App.css";
+import Footer from "./components/Footer";
 
 class App extends Component {
   constructor(props) {
@@ -75,6 +76,7 @@ class App extends Component {
       percent: 0,
       totalSeconds: 0,
       isHidden: false,
+      running: false,
     });
     clearInterval(this.timer);
   };
@@ -174,6 +176,7 @@ class App extends Component {
             }}
           ></div>
         </div>
+        { Footer() }
       </div>
     );
   }

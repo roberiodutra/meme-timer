@@ -35,7 +35,6 @@ h1 {
 .display {
   margin: 0 auto;
   padding-top: 20px;
-  font-family: 'digital-7', sans-serif;
   color: var(--fgreen);
   font-size: 100px;
   width: 238px;
@@ -131,4 +130,12 @@ h1 {
 .soundIcons {
   margin-top: 22px;
   cursor: pointer;
+}
+
+.footer , .footer a {
+  font-family: Epilogue, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 10px;
+  text-decoration: none;
 }

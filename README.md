@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Banner do MemeTimer com demonstração da aplicação" title="#MemeTimer" src="./public/images/demo.jpg" />
+  <img alt="Banner do MemeTimer com demonstração da aplicação" title="#MemeTimer" src="./public/images/banner.jpg" />
 </h1>
 
 <p align="center">Project made with Reactjs using youtube API 🕙 🕥</p>
@@ -23,6 +23,9 @@
 <h4 align="center"> 
 	🚧  Meme Timer 🚀 Em construção...  🚧
 </h4>
+
+### PROJETO ON
+<a href="https://roberio-almeida.github.io/meme-timer/">MEME TIMER</a>
 
 ### Features
 
