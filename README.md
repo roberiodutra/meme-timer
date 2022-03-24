@@ -2,12 +2,12 @@
   <img alt="Banner do MemeTimer para ReadME" title="#MemeTimer" src="./public/images/banner.jpg" />
 </h1>
 
-* *<p align="center">Project made with Reactjs using youtube API 🕙 🕥</p>
+<p align="center">Project made with Reactjs using youtube API 🕙 🕥</p>
 
 
 <img src="https://img.shields.io/github/issues/Roberio-Almeida/meme-timer?color=2fc18c&label=Version&logo=ghost&logoColor=2fc18c&style=for-the-badge"/>
 
-![Bower](https://img.shields.io/bower/l/bootstrap)
+<section align="center">![Bower](https://img.shields.io/bower/l/bootstrap)</section>
 
 
 <h1 align="center">
@@ -18,7 +18,7 @@
 
 <p align="center">
  <a href="#features">Features</a> •
- <a href="#requisitos">Pré-requisitos</a> • 
+ <a href="#pré-requisitos">Pré-requisitos</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
  <a href="#autor">Autor</a>
 </p>
@@ -69,7 +69,7 @@ $ npm start
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 ```
 
-### 🛠 Tecnologias
+### Tecnologias 🛠
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -81,9 +81,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <img src="https://avatars.githubusercontent.com/u/92614697?v=4" width="100px;" alt="Robério Almeida Avatar">
 Robério Almeida 🚀
-Feito com ❤️ por Robério Almeida 👋🏽 <a href="https://www.linkedin.com/in/roberioalmeida/">Entre em contato!</a>
-
 <a href="https://www.linkedin.com/in/roberioalmeida/" rel="nofollow"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin Badge" data-canonical-src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+Feito com ❤️ por Robério Almeida 👋🏽 <a href="https://www.linkedin.com/in/roberioalmeida/">Entre em contato!</a>
 
 📝 Licença
 Este projeto esta sobe a licença <a href="/Roberio-Almeida/meme-timer/blob/main/LICENSE">MIT</a>.
