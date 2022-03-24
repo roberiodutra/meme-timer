@@ -5,7 +5,12 @@
 <p align="center">Project made with Reactjs using youtube API 🕙 🕥</p>
 
 
-<img align="center" src="https://img.shields.io/bower/l/bootstrap"/>
+
+
+<p align="center">
+  <img src="https://img.shields.io/bower/l/bootstrap">
+</p>
+
 
 
 <h1 align="center">
@@ -27,6 +32,14 @@
 </h4>
 
 
+
+<h1 align="center">
+  <img alt="Banner do MemeTimer com demonstração da aplicação" title="#MemeTimer" src="./public/images/demo.jpg" />
+</h1>
+
+
+
+
 ### Features
 
 - [x] Cronômetro regressivo
@@ -37,11 +50,7 @@
 - [ ] Refatorar para utilizar Hooks e componentes funcionais
 - [ ] Testes...
 
-![Banner do Meme com demonstração da aplicação](./public/images/banner.jpg)
 
-<h1 align="center">
-  <img alt="Banner do MemeTimer com demonstração da aplicação" title="#MemeTimer" src="./public/images/demo.jpg" />
-</h1>
 
 ### Pré-requisitos
 
