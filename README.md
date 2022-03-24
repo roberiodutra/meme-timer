@@ -5,7 +5,7 @@
 <p align="center">Project made with Reactjs using youtube API 🕙 🕥</p>
 
 <p align="center">
-  <img src="https://img.shields.io/bower/l/bootstrap">
+  <img src="https://img.shields.io/conda/l/conda-forge/setuptools?color=036b52">
 </p>
 
 <h1 align="center">
