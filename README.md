@@ -96,7 +96,6 @@ Feito com ❤️ 👋🏽 <a href="https://www.linkedin.com/in/roberioalmeida/">
 
 
 
-
 📝 Licença
 
 Este projeto esta sobe a licença <a href="/Roberio-Almeida/meme-timer/blob/main/LICENSE">MIT</a>.
