@@ -54,7 +54,10 @@ class App extends Component {
     }
 
     if (seconds === 0 && minutes === 0) {
-      this.reset();
+      this.setState(() => ({
+        isHidden: false,
+        totalSeconds: 0,
+      }));
       return this.stop();
     }
 
