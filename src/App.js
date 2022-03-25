@@ -100,6 +100,7 @@ class App extends Component {
           {
             totalSeconds: totalSeconds + timesPlus[i],
             seconds: seconds + timesPlus[i],
+            percent: 0,
           },
           this.isMinute
         );
