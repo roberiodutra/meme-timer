@@ -26,6 +26,10 @@ h1 {
   border-bottom: 7px solid var(--cgreen);
 }
 
+a {
+  color: var(--cgreen);
+}
+
 .stopwatch {
   text-align: center;
   background-color: #fff;
