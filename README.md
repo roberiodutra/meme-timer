@@ -24,7 +24,7 @@
 	🚧  Meme Timer 🚀 Em construção...  🚧
 </h4>
 
-<h6 align="center">Link on <a href="https://roberio-almeida.github.io/meme-timer/">MEME TIMER</a></h6>
+<h6 align="center">Link on <a href="https://roberio.dev/meme-timer/">MEME TIMER</a></h6>
 
 ### Features
 
