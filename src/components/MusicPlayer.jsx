@@ -10,6 +10,7 @@ class MusicPlayer extends Component {
       url: "",
       songs: "",
       isPlaying: false,
+      volume: 1,
     };
   }
 
@@ -85,8 +86,12 @@ class MusicPlayer extends Component {
     }
   };
 
+  onInputChange = ({ target: { valueAsNumber } }) => {
+    this.setState({ volume: valueAsNumber });
+  };
+
   render() {
-    const { isPlaying, url } = this.state;
+    const { isPlaying, url, volume } = this.state;
     return (
       <div>
         <ReactPlayer
@@ -94,8 +99,13 @@ class MusicPlayer extends Component {
           playing={isPlaying}
           style={{ display: "none" }}
           onEnded={this.onEnded}
+          volume={volume}
         />
-        <MusicButtons playing={isPlaying} controls={this.controls} />
+        <MusicButtons
+          playing={isPlaying}
+          controls={this.controls}
+          vol={this.onInputChange}
+        />
       </div>
     );
   }

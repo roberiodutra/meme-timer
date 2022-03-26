@@ -49,7 +49,7 @@ a {
 }
 
 #progress {
-  margin: 0 auto;
+  margin: 10px auto;
   width: 498px;
   height: 498px;
   border: 1px solid var(--fgreen);

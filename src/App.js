@@ -16,7 +16,6 @@ class App extends Component {
       totalSeconds: 0,
       isHidden: false,
       imageBg: "",
-      hours: 0,
       timesPlus: [600, 60, 10, 1],
     };
   }
@@ -24,7 +23,7 @@ class App extends Component {
   start = () => {
     const { running, minutes, seconds, percent } = this.state;
     const MATH_NUMBER = Math.floor(Math.random() * 59);
-    const MATH_IMAGES = `url("images/image${MATH_NUMBER}.jpg")`;
+    const MATH_IMAGES = `url('images/image${MATH_NUMBER}.jpg')`;
 
     percent === 0 && this.setState({ imageBg: MATH_IMAGES });
 
@@ -177,7 +176,7 @@ class App extends Component {
             }}
           ></div>
         </div>
-        { Footer() }
+        {Footer()}
       </div>
     );
   }
