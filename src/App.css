@@ -71,8 +71,8 @@ a {
 .moreTime {
   display: flex;
   width: 100%;
-  margin-bottom: -10px;
-  margin-top: -10px;
+  margin-bottom: -15px;
+  margin-top: -15px;
 }
 
 .allButtons {
@@ -110,17 +110,17 @@ a {
   justify-content: flex-start;
   background: none;
   border-style: none;
-  width: 100px;
+  width: 105px;
   height: 30px;
 	cursor: pointer;
 }
 
 .plussecs {
   justify-content: flex-end;
-  padding-left: 37px;
+  padding-left: 33px;
   background: none;
   border-style: none;
-  width: 144px;
+  width: 140px;
   height: 30px;
 	cursor: pointer;
 }
@@ -136,9 +136,9 @@ a {
   align-items: center;
   margin-top: 22px;
   cursor: pointer;
-  border: 1px solid var(--cgreen);
+  border: 1px solid var(--fgreen);
   border-radius: 5px;
-  background-color: #eaecf1;
+  background-color: #fff;
   padding: 0 5px;
   height: 38px;
 }
