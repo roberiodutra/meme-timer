@@ -10,7 +10,7 @@ class MusicPlayer extends Component {
       url: "",
       songs: "",
       isPlaying: false,
-      volume: 1,
+      volume: 0.5,
     };
   }
 
@@ -105,6 +105,7 @@ class MusicPlayer extends Component {
           playing={isPlaying}
           controls={this.controls}
           vol={this.onInputChange}
+          volume={volume}
         />
       </div>
     );

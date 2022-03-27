@@ -4,46 +4,26 @@ import { IconButton } from "@mui/material";
 import SoundVolume from "./volume/SoundVolume";
 
 class MusicButtons extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      volDisplay: "none",
-    };
-  }
-
-  volumeEnter = () => {
-    this.setState({ volDisplay: "block" });
-  };
-
-  volumeLeave = () => {
-    this.setState({ volDisplay: "none" });
-  };
-
   render() {
-    const { playing, controls, vol } = this.props;
-    const { volDisplay } = this.state;
+    const { playing, controls, vol, volume } = this.props;
     return (
-      <div
-        className="soundIcons"
-        onMouseEnter={this.volumeEnter}
-        onMouseLeave={this.volumeLeave}
-      >
+      <div className="soundIcons">
+        {SoundVolume(vol, volume)}
         {!playing ? (
           <IconButton onClick={controls} name="play">
-            <icon.VolumeUpOutlined
-              fontSize="large"
+            <icon.PlayCircleOutline
+              fontSize="medium"
               style={{ color: "#036b52" }}
             />
           </IconButton>
         ) : (
           <IconButton onClick={controls} name="pause">
-            <icon.VolumeOff fontSize="large" style={{ color: "#2fc18c" }} />
+            <icon.PauseCircleOutline fontSize="medium" style={{ color: "#2fc18c" }} />
           </IconButton>
         )}
         <IconButton onClick={controls} name="reload">
-          <icon.Cached fontSize="large" style={{ color: "#036b52" }} />
+          <icon.Cached fontSize="medium" style={{ color: "#036b52" }} />
         </IconButton>
-        {SoundVolume(vol, volDisplay)}
       </div>
     );
   }
