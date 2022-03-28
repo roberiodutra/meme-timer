@@ -101,7 +101,7 @@ class App extends Component {
             seconds: seconds + timesPlus[i],
             percent: 0,
           },
-          this.isMinute
+          this.isMinute,
         );
       }
     });
