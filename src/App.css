@@ -68,6 +68,7 @@ a {
 #timer {
   display: block;
   padding: 0 5px;
+  height: 100px;
 }
 
 .plusTime, .lessTime{
