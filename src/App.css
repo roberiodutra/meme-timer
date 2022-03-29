@@ -37,11 +37,10 @@ a {
 }
 
 .display {
-  display: block;
+  display: inline-block;
   margin: 0 auto;
   padding-top: 20px;
   color: var(--fgreen);
-  font-size: 100px;
   width: 238px;
 }
 
@@ -65,11 +64,14 @@ a {
   height: 100%;
 }
 
-#timer {
-  padding: 0 5px;
+.timer {
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  height: 80px;
 }
 
-.plusTime, .lessTime, #timer {
+.plusTime, .lessTime, .timer{
   display: flex;
   width: 100%;
 }
@@ -85,7 +87,7 @@ a {
   color: #fff;
   border-radius: 5px;
   font-size: 12px;
-  margin: 30px 15px 10px 0;
+  margin: 20px 15px 10px 0;
   font-weight: 600;
   border-style: none;
   width: 60px;
@@ -133,7 +135,7 @@ a {
 .soundIcons {
   display: flex;
   align-items: center;
-  margin-top: 22px;
+  margin-top: 12px;
   cursor: pointer;
   border: 1px solid var(--fgreen);
   border-radius: 5px;

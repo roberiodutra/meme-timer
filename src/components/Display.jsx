@@ -16,9 +16,9 @@ class Display extends Component {
     return (
       <div className="display">
         <PlusTime plusTime={plusTime} isHidden={isHidden} />
-        <div id="timer">
+        <span className="timer">
           {this.Timer(minutes)}:{this.Timer(seconds)}
-        </div>
+        </span>
         <LessTime lessTime={lessTime} isHidden={isHidden} />
       </div>
     );
