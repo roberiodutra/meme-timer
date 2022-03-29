@@ -14,7 +14,7 @@ class Display extends Component {
   render() {
     const { minutes, seconds, plusTime, lessTime, isHidden } = this.props;
     return (
-      <div className={"display"}>
+      <div className="display">
         <PlusTime plusTime={plusTime} isHidden={isHidden} />
         <span id="timer">
           {this.Timer(minutes)}:{this.Timer(seconds)}
