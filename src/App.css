@@ -42,9 +42,9 @@ a {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding-top: 20px;
   color: var(--fgreen);
   width: 238px;
+  height: 140px;
 }
 
 .display-section {
@@ -68,11 +68,13 @@ a {
 }
 
 .timer {
+  display: flex;
+  align-items: center;
   font-size: 100px;
   height: 80px;
 }
 
-.plusTime, .lessTime, .timer, .allButtons {
+.allButtons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,21 +105,23 @@ a {
   background-position: 0;
 }
 
+.plusTime, .lessTime {
+  padding: 0 6px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
 .plusmins {
-  justify-content: flex-start;
   background: none;
   border-style: none;
-  width: 105px;
   height: 30px;
 	cursor: pointer;
 }
 
 .plussecs {
-  justify-content: flex-end;
-  padding-left: 33px;
   background: none;
   border-style: none;
-  width: 140px;
   height: 30px;
 	cursor: pointer;
 }
