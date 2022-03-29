@@ -65,21 +65,14 @@ a {
 }
 
 .timer {
-  justify-content: center;
-  align-items: center;
   font-size: 100px;
   height: 100px;
 }
 
-.plusTime, .lessTime, .timer{
+.plusTime, .lessTime, .timer, .allButtons {
   display: flex;
-  width: 100%;
-}
-
-.allButtons {
-  display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .buttons {
