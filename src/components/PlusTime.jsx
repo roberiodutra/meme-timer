@@ -5,7 +5,7 @@ class PlusTime extends Component {
   render() {
     const { plusTime, isHidden } = this.props;
     return (
-      <section className="moreTime">
+      <section className="plusTime">
         <button className="plusmins" type="button" onClick={plusTime}>
           <img
             src={`${imgUP}`}
