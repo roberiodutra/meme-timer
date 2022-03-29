@@ -37,7 +37,10 @@ a {
 }
 
 .display {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   padding-top: 20px;
   color: var(--fgreen);
@@ -66,7 +69,7 @@ a {
 
 .timer {
   font-size: 100px;
-  height: 100px;
+  height: 80px;
 }
 
 .plusTime, .lessTime, .timer, .allButtons {
