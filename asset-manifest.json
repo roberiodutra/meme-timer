@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/meme-timer/static/css/main.eff95211.css",
-    "main.js": "/meme-timer/static/js/main.f4f7fab9.js",
+    "main.css": "/meme-timer/static/css/main.b74a0c3c.css",
+    "main.js": "/meme-timer/static/js/main.68a8cb3a.js",
     "static/js/787.4ff0874b.chunk.js": "/meme-timer/static/js/787.4ff0874b.chunk.js",
     "static/media/digital-7 (mono).ttf": "/meme-timer/static/media/digital-7 (mono).ae951a188b593952b384.ttf",
     "static/media/logo_trybe.png": "/meme-timer/static/media/logo_trybe.17b2b99f1490d20f6c93.png",
     "index.html": "/meme-timer/index.html",
-    "main.eff95211.css.map": "/meme-timer/static/css/main.eff95211.css.map",
-    "main.f4f7fab9.js.map": "/meme-timer/static/js/main.f4f7fab9.js.map",
+    "main.b74a0c3c.css.map": "/meme-timer/static/css/main.b74a0c3c.css.map",
+    "main.68a8cb3a.js.map": "/meme-timer/static/js/main.68a8cb3a.js.map",
     "787.4ff0874b.chunk.js.map": "/meme-timer/static/js/787.4ff0874b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eff95211.css",
-    "static/js/main.f4f7fab9.js"
+    "static/css/main.b74a0c3c.css",
+    "static/js/main.68a8cb3a.js"
   ]
 }
