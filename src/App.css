@@ -98,7 +98,7 @@ a {
 }
 
 .timer {
-  position: absolute;
+  position: fixed;
   font-size: 4.5em;
   line-height: 80px;
 }
