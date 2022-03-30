@@ -9,13 +9,8 @@
 }
 
 @font-face {
-  font-family: 'Orbitron';
-  src: url('../fonts/Orbitron-Regular.ttf');
-}
-
-@font-face {
 font-family: 'digital-7';
-  src: url('../fonts/digital-7 (mono).ttf');
+  src: url('../fonts/digital-7.regular.ttf');
 }
 
 body {
@@ -88,15 +83,15 @@ a {
 }
 
 .display {
-  font-family: 'Orbitron', sans-serif, Verdana, sans-serif;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
   color: var(--fgreen);
-  width: 238px;
-  font-size: 3em;
+  width: 220px;
+  font-size: 4.5em;
+  line-height: 80px;
 }
 
 .display-section {
@@ -104,7 +99,7 @@ a {
 }
 
 .plusTime, .lessTime {
-  padding: 0 3px;
+  padding: 0 6px;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -125,7 +120,7 @@ a {
 }
 
 .plusmins img, .plussecs img {
-  width: 54px;
+  width: 49px;
   height: 30px;
   filter: sepia(80%) saturate(2000%) hue-rotate(150deg) brightness(80%)
 }
