@@ -38,12 +38,12 @@ input[type=range]::-moz-range-track {
 }
 
 input[type=range]::-moz-range-thumb {
-  box-shadow: 1px 1px 5px #000000;
-  border: 1px solid #000000;
+  box-shadow: 1px 1px 5px #036B52;
+  border: 1px solid #036B52;
   height: 15px;
   width: 10px;
   border-radius: 5px;
-  background: #2FC18C;
+  background: #036B52;
   cursor: pointer;
 }
 
@@ -58,26 +58,20 @@ input[type=range]::-ms-track {
 
 input[type=range]::-ms-fill-lower {
   background: #036B52;
-  border: 1px solid #000000;
   border-radius: 5px;
-  box-shadow: 1px 1px 1px #000000;
 }
 
 input[type=range]::-ms-fill-upper {
   background: #036B52;
-  border: 1px solid #000000;
   border-radius: 10px;
-  box-shadow: 1px 1px 1px #000000;
 }
 
 input[type=range]::-ms-thumb {
   margin-top: 1px;
-  box-shadow: 1px 1px 5px #000000;
-  border: 1px solid #000000;
   height: 15px;
   width: 10px;
   border-radius: 5px;
-  background: #2FC18C;
+  background: #036B52;
   cursor: pointer;
 }
 
