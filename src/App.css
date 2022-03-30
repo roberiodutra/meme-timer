@@ -9,12 +9,17 @@
 }
 
 @font-face {
-  font-family: 'digital-7';
+  font-family: 'Orbitron';
+  src: url('../fonts/Orbitron-Regular.ttf');
+}
+
+@font-face {
+font-family: 'digital-7';
   src: url('../fonts/digital-7 (mono).ttf');
 }
 
 body {
-  font-family: 'digital-7', sans-serif;
+  font-family: 'digital-7', sans-serif, Verdana, sans-serif;
 }
 
 h1 {
@@ -83,6 +88,7 @@ a {
 }
 
 .display {
+  font-family: 'Orbitron', sans-serif, Verdana, sans-serif;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -90,28 +96,18 @@ a {
   margin: 0 auto;
   color: var(--fgreen);
   width: 238px;
-  height: 140px;
+  font-size: 3em;
 }
 
 .display-section {
   background-color: #eaecf1;
 }
 
-.timer {
-  position: fixed;
-  font-size: 4.5em;
-  line-height: 80px;
-}
-
 .plusTime, .lessTime {
-  padding: 0 6px;
+  padding: 0 3px;
   display: flex;
   width: 100%;
   justify-content: space-between;
-}
-
-.plusTime{
-  padding-bottom: 79px;
 }
 
 .plusmins {
@@ -129,7 +125,7 @@ a {
 }
 
 .plusmins img, .plussecs img {
-  width: 45px;
+  width: 54px;
   height: 30px;
   filter: sepia(80%) saturate(2000%) hue-rotate(150deg) brightness(80%)
 }
