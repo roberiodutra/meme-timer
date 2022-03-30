@@ -43,6 +43,7 @@ a {
   margin: 0 auto;
   color: var(--fgreen);
   width: 238px;
+  font-size: 4.5em;
 }
 
 .display-section {
@@ -66,10 +67,7 @@ a {
 }
 
 .timer {
-  display: flex;
-  align-items: center;
-  font-size: 4.5em;
-  height: 80px;
+  line-height: 80px;
 }
 
 .allButtons {
