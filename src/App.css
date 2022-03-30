@@ -35,19 +35,13 @@ a {
   font-size: 22px;
 }
 
-.display {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  color: var(--fgreen);
-  width: 238px;
-  font-size: 4.5em;
+text {
+  margin: 0;
 }
 
-.display-section {
-  background-color: #eaecf1;
+p {
+  margin: 0;
+  padding: 0;
 }
 
 #progress {
@@ -64,10 +58,6 @@ a {
 #progressBar {
   width: 100%;
   height: 100%;
-}
-
-.timer {
-  line-height: 110px;
 }
 
 .allButtons {
@@ -101,11 +91,35 @@ a {
   background-position: 0;
 }
 
-.plusTime, .lessTime {
+.display {
+  padding-top: 8px;
+  margin: 0 auto;
+  color: var(--fgreen);
+  width: 238px;
+  font-size: 4.5em;
+  line-height: 100px;
+  height: 140px;
+}
+
+.display-section {
+  background-color: #eaecf1;
+}
+
+.timer {
+  height: 85px;
+  margin-top: -12px;
+}
+
+.plusTime {
   padding: 0 6px;
   display: flex;
   width: 100%;
-  justify-content: space-between;
+}
+
+.lessTime {
+  padding: 0 6px;
+  display: flex;
+  width: 100%;
 }
 
 .plusmins {
@@ -119,6 +133,7 @@ a {
   background: none;
   border-style: none;
   height: 30px;
+  padding-left: 45px;
 	cursor: pointer;
 }
 
