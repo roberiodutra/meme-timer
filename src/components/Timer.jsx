@@ -11,11 +11,8 @@ class Timer extends Component {
 
   render() {
     const { minutes, seconds } = this.props;
-    return (
-      <div className="timer">
-        {this.addZero(minutes)}:{this.addZero(seconds)}
-      </div>
-    );
+    const clock = `${this.addZero(minutes)}:${this.addZero(seconds)}`;
+    return <div className="timer">{clock}</div>;
   }
 }
 

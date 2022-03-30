@@ -44,6 +44,22 @@ p {
   padding: 0;
 }
 
+.display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: var(--fgreen);
+  width: 238px;
+  font-size: 4.5em;
+  line-height: 80px;
+}
+
+.display-section {
+  background-color: #eaecf1;
+}
+
 #progress {
   margin: 10px auto;
   width: 498px;
@@ -91,35 +107,11 @@ p {
   background-position: 0;
 }
 
-.display {
-  padding-top: 8px;
-  margin: 0 auto;
-  color: var(--fgreen);
-  width: 238px;
-  font-size: 4.5em;
-  line-height: 100px;
-  height: 140px;
-}
-
-.display-section {
-  background-color: #eaecf1;
-}
-
-.timer {
-  height: 85px;
-  margin-top: -12px;
-}
-
-.plusTime {
+.plusTime, .lessTime {
   padding: 0 6px;
   display: flex;
   width: 100%;
-}
-
-.lessTime {
-  padding: 0 6px;
-  display: flex;
-  width: 100%;
+  justify-content: space-between;
 }
 
 .plusmins {
@@ -133,7 +125,6 @@ p {
   background: none;
   border-style: none;
   height: 30px;
-  padding-left: 45px;
 	cursor: pointer;
 }
 
