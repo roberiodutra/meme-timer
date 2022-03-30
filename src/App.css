@@ -9,12 +9,12 @@
 }
 
 @font-face {
-font-family: 'digital-7';
-  src: url('../fonts/digital-7.regular.ttf');
+font-family: 'alarm clock';
+  src: url('../fonts/alarm clock.ttf');
 }
 
 body {
-  font-family: 'digital-7', sans-serif, Verdana, sans-serif;
+  font-family: 'alarm clock', sans-serif, Verdana, sans-serif;
 }
 
 h1 {
