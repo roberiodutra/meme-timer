@@ -15,7 +15,6 @@
 
 body {
   font-family: 'digital-7', sans-serif;
-  z-index: 1;
 }
 
 h1 {
@@ -44,7 +43,6 @@ a {
   margin: 0 auto;
   color: var(--fgreen);
   width: 238px;
-  height: 140px;
 }
 
 .display-section {
@@ -68,10 +66,8 @@ a {
 }
 
 .timer {
-  display: flex;
-  align-items: center;
   font-size: 100px;
-  height: 80px;
+  height: 100px;
 }
 
 .allButtons {
