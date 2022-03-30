@@ -90,6 +90,7 @@ a {
   margin: 0 auto;
   color: var(--fgreen);
   width: 238px;
+  height: 140px;
 }
 
 .display-section {
@@ -97,8 +98,9 @@ a {
 }
 
 .timer {
+  position: absolute;
   font-size: 4.5em;
-  line-height: 70px;
+  line-height: 80px;
 }
 
 .plusTime, .lessTime {
@@ -106,6 +108,10 @@ a {
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+
+.plusTime{
+  padding-bottom: 79px;
 }
 
 .plusmins {
