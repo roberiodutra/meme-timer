@@ -9,12 +9,17 @@
 }
 
 @font-face {
-font-family: 'alarm clock';
-  src: url('../fonts/alarm clock.ttf');
+font-family: 'Roboto';
+  src: url('../fonts/Roboto-Light.ttf');
 }
 
+@font-face {
+  font-family: 'digital-7';
+    src: url('../fonts/digital-7.regular.ttf');
+  }
+
 body {
-  font-family: 'alarm clock', sans-serif, Verdana, sans-serif;
+  font-family: 'digital-7', sans-serif, Verdana, sans-serif;
 }
 
 h1 {
@@ -83,14 +88,15 @@ a {
 }
 
 .display {
+  font-family: 'Roboto', Verdana, sans-serif;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
   color: var(--fgreen);
-  width: 220px;
-  font-size: 4.5em;
+  width: 223px;
+  font-size: 4em;
   line-height: 80px;
 }
 
@@ -99,7 +105,7 @@ a {
 }
 
 .plusTime, .lessTime {
-  padding: 0 6px;
+  padding: 0 4px;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -138,7 +144,7 @@ a {
 }
 
 .footer , .footer a {
-  font-family: Epilogue, Verdana, sans-serif;
+  font-family: 'Roboto', Verdana, sans-serif;
   text-align: center;
   margin-top: 50px;
   font-size: 10px;
