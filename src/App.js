@@ -17,7 +17,12 @@ class App extends Component {
       isHidden: false,
       imageBg: "",
       timesPlus: [600, 60, 10, 1],
+      musicTitle: '',
     };
+  }
+
+  getMusicTitle = (title) => {
+    this.setState({ musicTitle: title });
   }
 
   start = () => {
@@ -146,9 +151,9 @@ class App extends Component {
   };
 
   render() {
-    const { running, percent, isHidden, imageBg } = this.state;
+    const { running, percent, isHidden, imageBg, musicTitle } = this.state;
     return (
-      <div className={"stopwatch"}>
+      <div className="stopwatch">
         <h1>Meme Timer</h1>
         <section className="display-section">
           <Display
@@ -165,7 +170,10 @@ class App extends Component {
             <Buttons onClick={this.stop} text="STOP" />
           )}
           <Buttons onClick={this.reset} text="RESET" />
-          <MusicPlayer />
+          <MusicPlayer getMusicTitle={this.getMusicTitle} />
+        </div>
+        <div id="title-container">
+          <h4>{ musicTitle }</h4>
         </div>
         <div id="progress">
           <div

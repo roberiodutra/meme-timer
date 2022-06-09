@@ -10,7 +10,7 @@ class MusicPlayer extends Component {
       url: "",
       songs: "",
       isPlaying: false,
-      volume: 0.5,
+      volume: 0.2,
     };
   }
 
@@ -42,17 +42,23 @@ class MusicPlayer extends Component {
 
   randSong = () => {
     const { songs } = this.state;
+    const { getMusicTitle } = this.props;
     if (songs !== "") {
       const list = [];
+      const titles = [];
       songs.forEach((item) => {
         const {
           snippet: {
             resourceId: { videoId },
+            title,
           },
         } = item;
         list.push(videoId);
+        titles.push(title);
       });
-      return list[Math.floor(Math.random() * list.length)];
+      const randomNumber = Math.floor(Math.random() * list.length);
+      getMusicTitle(titles[randomNumber]);
+      return list[randomNumber];
     }
   };
 
