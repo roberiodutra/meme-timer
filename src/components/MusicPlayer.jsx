@@ -20,8 +20,10 @@ class MusicPlayer extends Component {
   }
 
   checkDay = () => {
+    const { getMusicTitle } = this.props;
     const day = new Date().getDay();
     if (day === 5) {
+      getMusicTitle('#SEXTOU COM MUFASA');
       this.setState({ url: "U6n2NcJ7rLc" });
     }
   };
