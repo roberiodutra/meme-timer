@@ -10,7 +10,7 @@ class MusicPlayer extends Component {
       url: "",
       songs: "",
       isPlaying: false,
-      volume: 0.2,
+      volume: 0.5,
     };
   }
 
