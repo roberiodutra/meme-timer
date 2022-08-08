@@ -74,7 +74,7 @@ Robério Dutra 🚀
 
 <a href="https://www.linkedin.com/in/roberioalmeida/" rel="nofollow"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin Badge" data-canonical-src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
-Feito com ❤️ 👋🏽 <a href="https://www.linkedin.com/in/roberioalmeida/">Entre em contato!</a>
+Feito com ❤️ 👋🏽 <a href="https://www.linkedin.com/in/roberiodutra/">Entre em contato!</a>
 
 📝 Licença
 
