@@ -78,4 +78,4 @@ Feito com ❤️ 👋🏽 <a href="https://www.linkedin.com/in/roberiodutra/">En
 
 📝 Licença
 
-Este projeto esta sobe a licença <a href="/roberiodutra/meme-timer/blob/main/LICENSE">MIT</a>.
+Este projeto esta sobe a licença <a href="/blob/main/LICENSE">MIT</a>.
