@@ -161,9 +161,11 @@ a {
   filter: sepia(80%) saturate(2000%) hue-rotate(150deg) brightness(80%)
 }
 
-.soundIcons {
+.soundIcons, .loading {
+  font-family: 'Roboto', Verdana, sans-serif;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: 12px;
   cursor: pointer;
   border: 1px solid var(--fgreen);
@@ -171,6 +173,8 @@ a {
   background-color: #fff;
   padding: 0 5px;
   height: 38px;
+  width: 150px;
+  font-size: 18px;
 }
 
 .footer , .footer a {

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ReactPlayer from "react-player";
 import MusicButtons from "./MusicButtons";
 import getMusics from "../api/getMusics";
+import Loading from '../components/Loading';
 
 class MusicPlayer extends Component {
   constructor(props) {
@@ -11,6 +12,7 @@ class MusicPlayer extends Component {
       songs: "",
       isPlaying: false,
       volume: 0.5,
+      loadingPlayer: true,
     };
   }
 
@@ -20,10 +22,8 @@ class MusicPlayer extends Component {
   }
 
   checkDay = () => {
-    const { getMusicTitle } = this.props;
     const day = new Date().getDay();
     if (day === 5) {
-      getMusicTitle('#SEXTOU COM MUFASA');
       this.setState({ url: "U6n2NcJ7rLc" });
     }
   };
@@ -39,7 +39,7 @@ class MusicPlayer extends Component {
       nextPageToken = data.nextPageToken;
     }
 
-    this.setState({ songs: videoData });
+    this.setState({ songs: videoData, loadingPlayer: false });
   };
 
   randSong = () => {
@@ -99,22 +99,29 @@ class MusicPlayer extends Component {
   };
 
   render() {
-    const { isPlaying, url, volume } = this.state;
+    const { isPlaying, url, volume, loadingPlayer } = this.state;
     return (
       <div>
-        <ReactPlayer
-          url={`https://www.youtube.com/watch?v=${url}`}
-          playing={isPlaying}
-          style={{ display: "none" }}
-          onEnded={this.onEnded}
-          volume={volume}
-        />
-        <MusicButtons
-          playing={isPlaying}
-          controls={this.controls}
-          vol={this.onInputChange}
-          volume={volume}
-        />
+        {loadingPlayer ? (
+          <Loading />
+        ) : (
+          <div>
+            <ReactPlayer
+              url={`https://www.youtube.com/watch?v=${url}`}
+              playing={isPlaying}
+              style={{ display: "none" }}
+              onEnded={this.onEnded}
+              volume={volume}
+            />
+            <MusicButtons
+              playing={isPlaying}
+              controls={this.controls}
+              vol={this.onInputChange}
+              volume={volume}
+              loading={loadingPlayer}
+            />
+          </div>
+        )}
       </div>
     );
   }
